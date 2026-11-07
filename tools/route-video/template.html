@@ -13,7 +13,7 @@ canvas{display:block}
 <body>
 <canvas id="c" width="1080" height="1920"></canvas>
 <script>
-const W=1080,H=1920,FPS=30;const TT=location.search.includes('tiktok');const REEL=TT||location.search.includes('reel');const BY=REEL?-220:0;
+const W=1080,H=1920,FPS=30;const IMGDIR=(new URLSearchParams(location.search).get('img')||'img')+'/';const TT=location.search.includes('tiktok');const REEL=TT||location.search.includes('reel');const BY=REEL?-220:0;
 const C={sea:'#071a13',sea2:'#0a2219',land:'#11301f',vn:'#2a6350',vn2:'#357a5f',cream:'#f3ebdd',sand:'#d8c3a0',gold:'#e2b45e',goldL:'#f2cf86',dark:'#0b221a'};
 const cv=document.getElementById('c'),ctx=cv.getContext('2d');
 
@@ -271,5 +271,5 @@ window.draw=function(t){
 };
 window.ready=(async()=>{await Promise.all(['600 40px Lora','italic 400 40px Lora','400 20px Body','500 20px Body','600 20px Body','700 20px Body'].map(f=>document.fonts.load(f)));
  await new Promise(r=>{const i=new Image();i.onload=()=>{IM.logo=i;r();};i.src='../../2026/brand/logo-creme.png';});
- await Promise.all(STOPS.map(s=>new Promise(r=>{const i=new Image();i.onload=()=>{IM[s.img]=i;r();};i.src='img/'+s.img+'.jpg';})));window.draw(0);return END;})();
+ await Promise.all(STOPS.map(s=>new Promise(r=>{const i=new Image();i.onload=()=>{IM[s.img]=i;r();};i.src=IMGDIR+s.img+'.jpg';})));window.draw(0);return END;})();
 </script></body></html>
