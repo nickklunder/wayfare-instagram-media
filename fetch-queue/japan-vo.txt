@@ -1,0 +1,2 @@
+2026/japan/audio/vo-take1.mp3 https://elevenlabsusercontent.com/database/workspace/e319fddee5f143b4ad2315e0e5a2730c/content_generation/kW2eipNYtCoyjz1yAxVt/HMyl8xiHH0QYDkZSJ8ij/content.mp3?Expires=1794049200&KeyName=assets-cdn-key-1&Signature=L9p6m4qlFozWWv3L0k4e56vgkAM=
+2026/japan/audio/vo-take2.mp3 https://elevenlabsusercontent.com/database/workspace/e319fddee5f143b4ad2315e0e5a2730c/content_generation/9McqI2BQ1131guqR7n39/DB75InFq4RuCkAG29ydk/content.mp3?Expires=1794049200&KeyName=assets-cdn-key-1&Signature=FZx_CEeTiAvj8R9ladlb4LNKRm0=
