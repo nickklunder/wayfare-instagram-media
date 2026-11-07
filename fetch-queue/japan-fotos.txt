@@ -3,3 +3,4 @@
 2026/japan/foto/3-kyoto.jpg https://images.unsplash.com/photo-1613487691352-7d9b4ee5045b?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600
 2026/japan/foto/4-osaka.jpg https://images.unsplash.com/photo-1560291544-515e5417bddb?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600
 2026/japan/foto/5-kumano.jpg https://images.unsplash.com/photo-1615253043703-04abd1cbfc6f?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600
+
